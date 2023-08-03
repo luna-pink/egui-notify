@@ -50,7 +50,7 @@ impl Toasts {
     /// Creates new [`Toasts`] instance.
     pub const fn new() -> Self {
         Self {
-            anchor: Anchor::TopRight,
+            anchor: Anchor::BottomRight,
             margin: vec2(8., 8.),
             toasts: vec![],
             spacing: 8.,
